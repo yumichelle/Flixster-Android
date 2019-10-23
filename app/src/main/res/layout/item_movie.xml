@@ -27,10 +27,10 @@
     <TextView
         android:id="@+id/tvOverview"
         android:layout_width="258dp"
-        android:layout_height="46dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/tvTitle"
         android:layout_marginStart="127dp"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="4dp"
         android:layout_toEndOf="@+id/imageViewPoster"
         tools:text="tvOverview tvOverview tvOverview tvOverview tvOverview tvOverviewtvOverview" />
 </RelativeLayout>
