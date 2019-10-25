@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import com.codepath.asynchttpclient.AsyncHttpClient;
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
+import com.example.flixandroid.models.Movie;
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
@@ -17,6 +18,7 @@ import org.json.JSONException;
 import org.parceler.Parcels;
 
 import okhttp3.Headers;
+
 
 public class DetailActivity extends YouTubeBaseActivity {
 
